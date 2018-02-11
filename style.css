@@ -1,15 +1,19 @@
-.headshot{
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-}
-
 body, h1{
   font-family: 'Roboto', sans-serif;
 }
 
 h1{
   display: inline-block;
+}
+
+.headshot{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.blurb a{
+  font-style: oblique;
 }
 
 .logo{
@@ -33,11 +37,6 @@ ol li{
 
 li{
   margin: 10px 0;
-}
-
-.blurb a{
-  color: black;
-  font-style: oblique;
 }
 
 a{
