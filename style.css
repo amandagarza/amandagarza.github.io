@@ -1,11 +1,15 @@
 .headshot{
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }
 
-body{
+body, h1{
   font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  display: inline-block;
 }
 
 .logo{
@@ -13,6 +17,13 @@ body{
   width: 24px;
   display: inline-block;
   vertical-align: text-bottom;
+}
+ol li{
+  list-style-type: none;
+}
+
+li{
+  margin: 10px 0;
 }
 
 a{
